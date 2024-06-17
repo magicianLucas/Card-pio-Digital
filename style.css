@@ -1,10 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Danfo&family=Staatliches&family=Yellowtail&display=swap');
 
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 5px;
     box-sizing: border-box;
     color: white;
+}
+.container{
+    border: 2px solid purple;
+    padding: 15px;
+    display: flex;
+   /* width: 500px;*/
+    height: 400px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: wrap-reverse;
 }
 :root{
     --cor_botoes_h2_texto:#ffae00;
@@ -19,6 +30,7 @@ body{
     background-size: cover;
     */
     text-align: center;
+    fle
 
 }
 header{
@@ -48,18 +60,22 @@ h2{
     text-align: center;
 }
 .boxproduto{
+    display: flex;
+    flex-direction: row;
     background-color: rgba(37, 37, 37, 0.8);
     width: 850px;
     margin: 0px auto;
     border-radius: var(--arredondamento_bordas);
 }
 .boximagem , .boxtexto{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     vertical-align: middle;
 }
 .boxtexto{
     width: 400px;
     text-align: start;
+    justify-content: center;
 }
 h1, h2, h3 button{
     margin: 10px 0px;
