@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/bg.png);
+    /* descomente para aplicar uma imagem sem repetição*/
+    /*background-repeat: repeat;
+    background-size: cover;
+    */
+}
+header{
+    background-color: #1e1f22;
+    text-align: center;
+    padding: 15px;
+}
+nav a{
+    color: white;
+    margin: 0px 10px;
+    text-decoration: none;
+    
+}
