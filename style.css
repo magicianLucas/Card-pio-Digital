@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Staatliches&family=Yellowtail&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: white;
+}
+:root{
+    --cor_botoes_h2_texto:#ffae00;
+    --arredondamento_bordas:10px;
+    --minha_fonte:   "Staatliches", sans-serif;;
 }
 
 body{
@@ -10,6 +18,8 @@ body{
     /*background-repeat: repeat;
     background-size: cover;
     */
+    text-align: center;
+
 }
 header{
     background-color: #1e1f22;
@@ -20,5 +30,45 @@ nav a{
     color: white;
     margin: 0px 10px;
     text-decoration: none;
-    
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--minha_fonte);
+}
+.logo{
+    width: 250px;
+    }
+.imagemproduto{
+    width: 400px;
+}
+h1{
+    text-transform: uppercase;
+}
+h2{
+    color: var(--cor_botoes_h2_texto);
+    text-align: center;
+}
+.boxproduto{
+    background-color: rgba(37, 37, 37, 0.8);
+    width: 850px;
+    margin: 0px auto;
+    border-radius: var(--arredondamento_bordas);
+}
+.boximagem , .boxtexto{
+    display: inline-block;
+    vertical-align: middle;
+}
+.boxtexto{
+    width: 400px;
+    text-align: start;
+}
+h1, h2, h3 button{
+    margin: 10px 0px;
+}
+button{
+    background-color: var(--cor_botoes_h2_texto);
+    padding: 15px;
+    border: none;
+    border-radius:var(--arredondamento_bordas);
+    width: 150px;
+    cursor: pointer;
 }
