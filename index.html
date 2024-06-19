@@ -21,30 +21,44 @@
         
     </header>
     <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="carrinho" aria-labelledby="offcanvasExampleLabel">
-        <div>
-            <img src="images/burger01.png" alt="">
-            <h2>Classico Angus Burguer</h2>
-            <p> Hambúrguer Clássico, feito com um suculento hambúrguer de carne angus, queijo derretido, alface crocante, tomate fresco e um toque especial do nosso molho secreto.</p>
-            <h2> R$ 22,50 </h2>
-        </div>
+        <!-- <img src="images/burger01.png" alt="">
+        <h2>Classico Angus Burguer</h2>
+        <p> Hambúrguer Clássico, feito com um suculento hambúrguer de carne angus, queijo derretido, alface crocante, tomate fresco e um toque especial do nosso molho secreto.</p>
+        <h2> R$ 22,50 </h2>
         <div class="offcanvas-header">
           <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
+        </div> -->
         <div class="offcanvas-body">
-          <div>
-            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-          </div>
-          <div class="dropdown mt-3">
-            <!-- <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-              Dropdown button
-            </button> -->
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <li><a class="dropdown-item" href="#hamb">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </div>
+            <h2>Meu Carrinho</h2>
+            <div>
+
+                <!-- cartão horizontal - produtos hamburguer -->
+                <div class="card mb-3" style="max-width: 540px;" >
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="images/burger01.png" class="img-fluid rounded-start box" alt="Classico Angus Burger">
+                    </div>
+                        <div class="col-md-8">
+                            <div class="card-body tetx-start">
+                                <h5 class="card-title text-dark fs-5">Clássico Angus Burger</h5>
+                                <h6 class="card-text text-dark fs-5"> Total: R$ 22,50</h6>
+                                <div class="d-flex">
+                                    <button type="button" class="btn btn-warning">+</button>
+                                    <input type="number" value="1" class="w-50 mx-3">
+                                    <button class="btn btn-warning" >-</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- cartão horizontal - produtos acompqnhamento-->
+                <!-- cartão horizontal - produtos bebida -->
+
+                <!-- total carrinho -->
+                <!-- botão pagar -->
+
+            </div>
         </div>
     </div>
     <main>
@@ -74,6 +88,10 @@
 
                         </div> -->
                     </div>
+                    <div class="boxtexto">
+                        <img src="images/burger02.png" alt="" class="imagemproduto">
+                    </div>
+                     
                     
                 </div>
             </section>
